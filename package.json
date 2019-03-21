@@ -1,0 +1,24 @@
+{
+  "name": "Emailer",
+  "version": "1.0.0",
+  "description": "Its a small script i wrote for sending emails using node.js. it works in the terminal. feel free to use it.",
+  "main": "emailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mooninghnk/Emailer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mooninghnk/Emailer/issues"
+  },
+  "homepage": "https://github.com/Mooninghnk/Emailer#readme",
+  "dependencies": {
+    "nodemailer": "^5.1.1",
+    "prompt": "^1.0.0"
+  }
+}

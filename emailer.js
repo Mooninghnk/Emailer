@@ -21,7 +21,7 @@ const mailOption = (from, to, subject, text) => {
 const schema = {
     properties: {
         mail: {
-            message: "Name must be only letters, spaces, or dashes",
+            message: "email provider right now only works with gmail",
             required: true
         },
         email: {
@@ -59,3 +59,4 @@ prompt.get(schema, function(err, result) {
         }
     });
 });
+
